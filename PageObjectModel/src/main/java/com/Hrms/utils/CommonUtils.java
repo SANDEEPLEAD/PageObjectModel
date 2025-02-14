@@ -296,7 +296,7 @@ public class CommonUtils {
 	public static Properties readPropertiesFile(String filepath) throws IOException {
 		FileInputStream fis =null;
 		try {
-			 fis = new FileInputStream("C:\\Users\\sandeep\\PageObjectModel\\src\\test\\resourcess\\config.properties");
+			 fis = new FileInputStream("C:\\Users\\sandeep\\git\\PageObjectModel\\PageObjectModel\\src\\test\\resourcess\\config.properties");
 			config = new Properties();
 			config.load(fis);
 		} catch (Exception e) {

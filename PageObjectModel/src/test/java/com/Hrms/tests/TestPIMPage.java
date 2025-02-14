@@ -118,7 +118,7 @@ public class TestPIMPage extends BasePage{
 			@Test(description="Verify that an employee can be deleted successfully",priority=3)
 			public void deleteEmployee() throws Exception {
 			 
-				CommonUtils.clickElement(PIMPage.getEmpDelete());
+				CommonUtils.clickElement(PIMPage.getEmpDeleted());
 			
 			}
 			
