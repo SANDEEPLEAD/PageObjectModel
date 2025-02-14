@@ -24,7 +24,7 @@ public class PIMPage {
 		private final static By by_save = By.xpath("//input[@id='btnEdit']");
 		private final static By by_back = By.xpath("//input[@class='backbutton']");
 		private final static By by_empName = By.xpath("//a[contains(text(),'Sai')]");
-		
+		private final static By by_getEmpDeleted = By.xpath("//*[@id='pim']/u1/li[2]/a"); 
 		// Getter/Setter Helping functions
 		public static void clickOnElement() throws Exception {
 			CommonUtils.clickElement(getPim());
@@ -71,7 +71,9 @@ public class PIMPage {
 		 public static By searchEmployee() throws Exception {
 				return by_searchEmployee;
 			}
-
+		 public static By getEmpDeleted() throws Exception {
+				return by_getEmpDeleted;
+			}
 		
 		
 	}
